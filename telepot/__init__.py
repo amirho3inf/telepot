@@ -65,7 +65,7 @@ def _find_first_key(d, keys):
     for k in keys:
         if k in d:
             return k
-    raise KeyError('No suggested keys %s in %s' % (str(keys), str(d)))
+    # raise KeyError('No suggested keys %s in %s' % (str(keys), str(d)))
 
 
 all_content_types = [
